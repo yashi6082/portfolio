@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    outline: none; border: none;
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: linear-gradient(rgba(212,212,12),rgba(122, 118, 118));
+    padding: 1.8rem;
+    /* padding-top: .5rem; */
+}
+section{
+    padding: 1rem 4%;
+    min-height: 100%;
+}
+.btn{
+    font-size: 1.9rem;
+    padding: .5rem 3rem;
+    background: black;
+    color: white;
+    border-radius: 4rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+header{
+    width:35rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    text-align: center;
+    padding: -6rem;
+    height: 58rem;
+    border-radius: 1rem;
+}
+header .user img{
+    margin:1rem 8rem;
+    height:15rem;
+    width:15rem;
+    border-radius:80%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+    margin-top: 2rem;
+}
+header .user .name{
+    font-size: 4rem;
+    font-weight:lighter;
+    color: black;
+    padding: 1rem 0;
+}
+header .navbar{
+    padding:0rem 3rem;
+}
+header .navbar ul li{
+    margin: 1rem 8rem;
+    list-style: none;
+}
+header .navbar ul li a{
+    display: block;
+    padding:.9rem;
+    font-size: 2rem;
+    color: black;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    border-radius: 2rem;
+    transition: all .2s linear;
+}
+header .navbar ul li a:hover{
+    background: rgba(255,255,255,.2);
+    color: white;
+    transition: none;
+ }
+.container{
+    width:55rem;
+    height: 58rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    padding-bottom: 25rem;
+}
+.home h3{
+    font-size: 3rem;
+    font-weight: lighter;
+    color: white;
+}
+.home .name span{
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+}
+.home .post span{
+    font-size: 3rem;
+    color: black;
+}
+.home .share{
+    position: absolute;
+    left: 50%; bottom: 16rem;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 0rem;
+    border-radius: 1rem;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    transition: .2s linear;
+}
+.home .share a{
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem black;
+    padding: 1.2rem 2rem;
+    margin: .5rem;
+    color: black;
+    font-size: 1.3rem;
+
+}
+.home .share a:hover{
+    background: rgba(255,255,255,.4);
+    color: #555;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+.about{
+    min-height: 100%;
+}
+.about .content h3{
+    font-size: 2.9rem;
+    color: black;
+}
+.about .content h3 span{
+    color: black;
+    font-weight: bolder;
+}
+.about .content p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 10rem 5;
+    justify-content: space-between;    
+}
+.about .content img{
+    height:9rem;
+    width:8rem;
+    margin-top: -5rem;
+}
+.about .content ul li{
+    font-size: 2rem;
+    padding: 0rem;
+}
+.education .box-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: -4rem 0;
+}
+.education .box-container .box .year{
+    font-size: 3rem;
+    color: black;
+    position: relative;
+}
+.education .box-container .box .year::before{
+    content: '';
+    position: absolute;
+    top: 1.5rem; left:-1rem;
+    height: .8rem;
+    width: .8rem;
+    border-radius: 50%;
+    background: black;
+}
+.education .box-container .box p{
+    font-size: 1.9rem;
+    color: black;
+    padding-top: 8rem 0;
+}
+.education{
+    align-items: center;
+    justify-content: center;
+}
+header .education .box-container .box{
+    margin:1rem 0;
+    height:15rem;
+    width:15rem;
+    border-radius:50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+}
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 65%;
+}
+.contact-left p{
+    margin-top: 50px;
+}
+.contact-left p i{
+    color: black;
+    margin-right: 35px ;
+    font-size: 35px;
+}
+.btn.btn2{
+    display: inline-block;
+    background: black;
+    margin-left:500px;
+}
+.contact-left form{
+    width:100%;
+}
+form input, form textarea{
+    width: 50%;
+    border: 0;
+    outline:none;
+    background:rgba(255,255,255,.2);
+    padding: 15px;
+    margin: 4px 360px;
+    color: black;
+    font-size:25px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 10px 25px;
+    font-size: 19px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sub-title{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+.row .contact-left h3{
+    margin-left: 15px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}

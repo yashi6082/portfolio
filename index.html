@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <!-- font cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- starting of header section -->
+    <header>
+        <div class="user">
+            <img src="images/me5.png" alt="">
+            <h1 class="name"><b>Yashi Garg</b></h1>
+            
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- content section starts -->
+    <div class="container">
+        <section class="home" id="home">
+            <a href="#"><button class="btn">Hello I'm ,</button></a><br><br>
+            <h3 class="name"><span>Yashi</span></h3><br><br>
+            <h3 class="post"><span class="typing-text"></span></h3>
+
+            <div class="share">
+                <a href="https://www.instagram.com/yashiii_28_">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yashi-garg-8b534722b">
+                    <i class="fab fa-linkedin"></i>
+                </a> 
+
+                <a href="https://github.com/yashi6082">
+                    <i class="fab fa-github"></i>
+                </a> 
+                
+                
+            </div>
+        </section>
+<!-- about section starts -->
+<section class="about" id="about">
+    <h1 class="heading">ABOUT ME</h1><br>
+    <div class="content">
+        <h3 class="name">My name is <span>YASHI GARG:)</span></h3><br>
+        <p>Computer Science and Engineering Undergraduate with a strong interest in Front-end development and problem solving.<br>Also, I am a fast learner and highly passionate about learning new technologies,optimistic in nature,able to adapt to dynamic environment.Looking forward to make a respectable future in my field.<br><br><b>LANGUAGES I AM FAMILIAR WITH:-</b></p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript(Basic)</li>
+            <li>C</li>
+            <li>C++</li><br><br><br><br><br>
+        </ul>
+
+        <img src="images/html (1).png" alt="">
+        <img src="images/html (2).png" alt="">
+        <img src="images/html (3).png" alt="">
+        <img src="images/c.png" alt="">
+        <img src="images/c++.png" alt="">
+    </div>
+
+</section>
+
+<!-- starting of education -->
+
+<section class="education" id="education">
+    <h1 class="heading">MY EDUCATION</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="year">College</div><br>
+            <p> I'm currently in my 2nd year, pursuing B.Tech at Jaipur Engineering College and Research Centre(JECRC Foundation) in the department of Computer Science and Engineering.<br>I have done a industrial training on <b>"DevOps with Cloud Computing"</b> from Upflairs Pvt. Ltd.<br>Linux, Apache, Jenkins, Docker, Kubernettes, Virtualisation,etc. are the technologies learnt from there. </p><br>
+            <div class="year">School</div><br>
+            <p> I have done my schooling from Green Gate English School, Vidyadhar Nagar till class 10th and then from Central Academy, Ambabari</p><br>
+            <a href="https://drive.google.com/file/d/1MpRnYpclnvtKo05nsnK5-WdcEmxx4lIU/view?usp=drivesdk"><button class="btn">DOWNLOAD CV</button></a><br><br>
+
+
+        </div>
+    </div>
+</section>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <h3> <i class="fas fa-paper-plane"></i> yashi28062002garg@gmail.com</h3>
+                    <h3><i class="fas fa-phone-square-alt"></i> +91-7877461849</h3>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Type Message Here"></textarea>
+                        <button type="Send"class="btn btn2">Send</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</head>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script>
+    var type = new Typed('.typing-text',{
+        strings : [ 'Keen Learner', 'Front-end Developer', 'Programmer' ],
+        typeSpeed:80,
+        loop:true
+    });
+</script>
+    
+</body>
+</html>
